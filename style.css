@@ -140,15 +140,21 @@ html, body {
 .cta-button {
   background: #5271ff;
   border: none;
-  padding: 12px 30px;
-  font-size: 1em;
+  padding: 10px 20px;
+  font-size: 18px;
   border-radius: 6px;
   color: white;
   cursor: pointer;
   transition: background 0.3s;
+  text-decoration: none;
 }
 .cta-button:hover {
-  background-color: #345de8;
+  color: #7189ff;
+  font-size: 19px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: none;
 }
 
 @keyframes slideCarousel {

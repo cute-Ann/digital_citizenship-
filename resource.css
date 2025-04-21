@@ -127,12 +127,19 @@ body, html {
   border-radius: 6px;
   font-size: 15px;
   font-weight: bold;
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 1px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cta-button:hover {
-  background-color: #334fcc;
+  color: #5271ff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: none;
   transform: scale(1.05);
 }
 

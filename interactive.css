@@ -173,7 +173,12 @@ body, html {
 }
 
 .cta-button:hover {
-  background-color: #334fcc;
+  color: #5271ff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: none;
   transform: translateY(-2px);
 }
 
